@@ -39,29 +39,29 @@ function calculaParcela(valor) {
         let taxa = 0;
 
         // Define a taxa de acordo com o número de parcelas
-        if (qtdParcela == 1) { taxa = 1.14144; }
-        else if (qtdParcela == 2) { taxa = 1.15111; }
-        else if (qtdParcela == 3) { taxa = 1.15879; }
-        else if (qtdParcela == 4) { taxa = 1.16655; }
-        else if (qtdParcela == 5) { taxa = 1.17428; }
-        else if (qtdParcela == 6) { taxa = 1.18207; }
-        else if (qtdParcela == 7) { taxa = 1.19402; }
-        else if (qtdParcela == 8) { taxa = 1.20191; }
-        else if (qtdParcela == 9) { taxa = 1.20982; }
-        else if (qtdParcela == 10) { taxa = 1.21777; }
-        else if (qtdParcela == 11) { taxa = 1.22583; }
-        else if (qtdParcela == 12) { taxa = 1.23380; }
-        else if (qtdParcela == 13) { taxa = 1.24482; }
-        else if (qtdParcela == 14) { taxa = 1.25294; }
-        else if (qtdParcela == 15) { taxa = 1.26126; }
-        else if (qtdParcela == 16) { taxa = 1.26931; }
-        else if (qtdParcela == 17) { taxa = 1.27553; }
-        else if (qtdParcela == 18) { taxa = 1.28581; }
-        else if (qtdParcela == 19) { taxa = 1.30083; }
-        else if (qtdParcela == 20) { taxa = 1.31144; }
-        else if (qtdParcela == 21) { taxa = 1.32211; }
+        if (qtdParcela == 1) { taxa = 1.037675; }
+        else if (qtdParcela == 2) { taxa = 1.046462; }
+        else if (qtdParcela == 3) { taxa = 1.053441; }
+        else if (qtdParcela == 4) { taxa = 1.060496; }
+        else if (qtdParcela == 5) { taxa = 1.067525; }
+        else if (qtdParcela == 6) { taxa = 1.074612; }
+        else if (qtdParcela == 7) { taxa = 1.085469; }
+        else if (qtdParcela == 8) { taxa = 1.092648; }
+        else if (qtdParcela == 9) { taxa = 1.099836; }
+        else if (qtdParcela == 10) { taxa = 1.107060; }
+        else if (qtdParcela == 11) { taxa = 1.114388; }
+        else if (qtdParcela == 12) { taxa = 1.121640; }
+        else if (qtdParcela == 13) { taxa = 1.131650; }
+        else if (qtdParcela == 14) { taxa = 1.139040; }
+        else if (qtdParcela == 15) { taxa = 1.146600; }
+        else if (qtdParcela == 16) { taxa = 1.153920; }
+        else if (qtdParcela == 17) { taxa = 1.159570; }
+        else if (qtdParcela == 18) { taxa = 1.168920; }
+        else if (qtdParcela == 19) { taxa = 1.182570; }
+        else if (qtdParcela == 20) { taxa = 1.192219; }
+        else if (qtdParcela == 21) { taxa = 1.201917; }
 
-        let valorCalculado = valor * taxa; // Calcula o valor final
+        let valorCalculado = valor*1.08 * taxa; // Calcula o valor final
         let valorParcela = valorCalculado / qtdParcela;
 
         resultadoHTML += `
