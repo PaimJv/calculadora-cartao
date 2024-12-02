@@ -66,7 +66,7 @@ function calculaParcela(valor) {
 
         resultadoHTML += `
             <tr>
-                <td>${qtdParcela}</td>
+                <td>${qtdParcela+'x'}</td>
                 <td>R$ ${valorParcela.toFixed(2)}</td>
                 <td>R$ ${valorCalculado.toFixed(2)}</td>
             </tr>
