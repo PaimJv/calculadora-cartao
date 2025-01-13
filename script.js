@@ -61,7 +61,7 @@ function calculaParcela(valor) {
         else if (qtdParcela == 20) { taxa = 1.192219; }
         else if (qtdParcela == 21) { taxa = 1.201917; }
 
-        let valorCalculado = valor*1.08 * taxa; // Calcula o valor final
+        let valorCalculado = valor*1.1 * taxa; // Calcula o valor final
         let valorParcela = valorCalculado / qtdParcela;
 
         resultadoHTML += `
